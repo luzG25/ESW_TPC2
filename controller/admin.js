@@ -30,13 +30,13 @@ exports.products_get = (req, res, next) => {
 
 exports.product_delete = (req, res, next) => {
     let item = { title: req.body.title }
-    let newProducts = []
+    console.log(item)
 
-    for (let item0 of products){
-        if (item0 != item)
-        newProducts.push(item0)
+    let index = products.indexOf(item);
+    if (index !== -1) {
+        products.splice(index, 1);
     }
-    products = newProducts
+    
     res.redirect('/admin/products')
 }
 

@@ -14,7 +14,7 @@ router.post('/add-product', adminController.addProducts_post)
 router.get('/products', adminController.products_get)
 
 // /admin/product_deletar
-router.get('/product_deletar', adminController.product_delete)
+router.post('/product_deletar', adminController.product_delete)
 
 
 exports.routes = router;
