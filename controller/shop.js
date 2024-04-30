@@ -6,13 +6,25 @@ const rootDir = require('../util/path');
 const adminData = require('./admin');
 
 exports.index = (rep, res, next) => {
-    const products = adminData.products;
+    const produtos = adminData.products;
     res.render('shop', {
-        prods: products,
+        prods: produtos,
         pageTitle: 'Shop',
         path: '/',
-        hasProducts: products.length > 0,
+        hasProducts: produtos.length > 0,
         activeShop: true,
         productCSS: true
     });
+}
+
+exports.products = (req, res, next) => {
+
+}
+
+exports.cart = (req, res, next) => {
+
+}
+
+exports.orders = (req, res, next) => {
+
 }

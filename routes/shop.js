@@ -8,16 +8,10 @@ const shopController = require('../controller/shop')
 
 router.get('/', shopController.index)
 
-router.get('/produtos', (req, res, next) => {
+router.get('/produtos', shopController.products)
 
-})
+router.get('/cart', shopController.cart)
 
-router.get('/cart', (req, res, next) => {
-
-})
-
-router.get('/orders', (req, res, next) => {
-
-})
+router.get('/orders', shopController.orders)
 
 module.exports = router;
