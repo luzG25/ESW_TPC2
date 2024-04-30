@@ -20,3 +20,5 @@ exports.addProducts_post = (req, res, next) => {
 exports.products = (req, res, next) => {
     
 }
+
+exports.products = products;

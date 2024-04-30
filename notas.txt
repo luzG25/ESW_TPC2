@@ -1,0 +1,17 @@
+Tendo em conta o que foi feito na aula sobre implementação de Padrão MVC:
+
+1 - Modificar o template usado para os links de navegação de modo a apresentar 5 opções conforme a imagem em anexo.
+
+2 - Registar as rotas para os seguintes URLS:
+    a)  /produtos (GET de todos os produtos)
+    b)  /cart -  (GET de conteúdo do carrinho)
+    c) /orders - (GET de encomendas)
+    c)  /admin/products (GET para gerir produtos)
+
+3 - Refazer os controllers tendo em conta o seguinte:
+    a) Controllers que tem a ver com Adicionar novo produto e Gerir produtos devem fazer parte de um controller admin.js. 
+    b) Controllers que tema a ver com aceso a loja e comprar devem fazer parte de shop.js
+
+
+ -----------------------------------------------
+ executar 'npm install' para baixar as dependencias.
