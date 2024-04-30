@@ -9,8 +9,12 @@ Tendo em conta o que foi feito na aula sobre implementação de Padrão MVC:
     c)  /admin/products (GET para gerir produtos)
 
 3 - Refazer os controllers tendo em conta o seguinte:
-    a) Controllers que tem a ver com Adicionar novo produto e Gerir produtos devem fazer parte de um controller admin.js. 
-    b) Controllers que tema a ver com aceso a loja e comprar devem fazer parte de shop.js
+    a) Controllers que tem a ver com 
+    Adicionar novo produto e Gerir produtos 
+    devem fazer parte de um controller admin.js. 
+    
+    b) Controllers que tema a ver com aceso 
+    a loja e comprar devem fazer parte de shop.js
 
 
  -----------------------------------------------
